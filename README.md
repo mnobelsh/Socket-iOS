@@ -1,7 +1,7 @@
 # Socket-iOS
 Simple socket.io implementation in iOS Mobile App
 
-1. Make sure you've installed latest stable version of node.js
+1. Make sure you've already installed latest stable version of node.js
 2. Unzip SocketChat-Server.zip file
 3. run npm install to make sure all dependencies installed.
 4. run SocketChat-Server (using command: node index.js).
