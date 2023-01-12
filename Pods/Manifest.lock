@@ -1,0 +1,36 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.10)
+  - LetterAvatarKit (1.2.5)
+  - SnapKit (5.6.0)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
+  - Swinject (2.8.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - LetterAvatarKit
+  - SnapKit
+  - Socket.IO-Client-Swift
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - LetterAvatarKit
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - Starscream
+    - Swinject
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  LetterAvatarKit: a1d64fc3699e399890e3c3ed5daa507c83bb3ca2
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+
+PODFILE CHECKSUM: 18efa6a5eac1f3683a3d426c9d4d676500568c3c
+
+COCOAPODS: 1.11.3

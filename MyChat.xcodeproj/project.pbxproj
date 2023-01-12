@@ -7,16 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09068CB7A9E0803113FCC6FC /* Pods_MyChat_MyChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACE167288C404CFE0EBC498 /* Pods_MyChat_MyChatUITests.framework */; };
+		56F5FC0F3FDAE16547A2FD99 /* Pods_MyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33D6BB7CBE8486CDBF907C9 /* Pods_MyChat.framework */; };
+		8CBD8030C45857A12E751047 /* Pods_MyChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C20920A18AB1F2F32905A3 /* Pods_MyChatTests.framework */; };
 		FF7070AF296E7720004EB0E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070AE296E7720004EB0E7 /* AppDelegate.swift */; };
 		FF7070B1296E7720004EB0E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070B0296E7720004EB0E7 /* SceneDelegate.swift */; };
-		FF7070B3296E7720004EB0E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070B2296E7720004EB0E7 /* ViewController.swift */; };
-		FF7070B6296E7720004EB0E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7070B4296E7720004EB0E7 /* Main.storyboard */; };
 		FF7070B9296E7720004EB0E7 /* MyChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF7070B7296E7720004EB0E7 /* MyChat.xcdatamodeld */; };
 		FF7070BB296E7723004EB0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7070BA296E7723004EB0E7 /* Assets.xcassets */; };
 		FF7070BE296E7723004EB0E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7070BC296E7723004EB0E7 /* LaunchScreen.storyboard */; };
 		FF7070C9296E7723004EB0E7 /* MyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070C8296E7723004EB0E7 /* MyChatTests.swift */; };
 		FF7070D3296E7723004EB0E7 /* MyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070D2296E7723004EB0E7 /* MyChatUITests.swift */; };
 		FF7070D5296E7723004EB0E7 /* MyChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070D4296E7723004EB0E7 /* MyChatUITestsLaunchTests.swift */; };
+		FF7070E6296E78C7004EB0E7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070E4296E78C7004EB0E7 /* DashboardViewController.swift */; };
+		FF7070E7296E78C7004EB0E7 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070E5296E78C7004EB0E7 /* DashboardViewModel.swift */; };
+		FF7070EC296E78E0004EB0E7 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070EA296E78E0004EB0E7 /* ChatRoomViewController.swift */; };
+		FF7070ED296E78E0004EB0E7 /* ChatRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070EB296E78E0004EB0E7 /* ChatRoomViewModel.swift */; };
+		FF7070F3296E7A1E004EB0E7 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070F2296E7A1E004EB0E7 /* UINavigationController.swift */; };
+		FF7070F5296E7B84004EB0E7 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070F4296E7B84004EB0E7 /* UIViewController.swift */; };
+		FF7070F8296E7E2B004EB0E7 /* ChatRoomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070F7296E7E2B004EB0E7 /* ChatRoomTableCell.swift */; };
+		FF7070FB296E848F004EB0E7 /* ChatItemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070FA296E848F004EB0E7 /* ChatItemTableCell.swift */; };
+		FF7070FE296E852B004EB0E7 /* SenderChatItemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070FD296E852B004EB0E7 /* SenderChatItemTableCell.swift */; };
+		FF707100296E8535004EB0E7 /* ReceiverChatItemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070FF296E8535004EB0E7 /* ReceiverChatItemTableCell.swift */; };
+		FF707102296E91DB004EB0E7 /* SocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707101296E91DB004EB0E7 /* SocketProvider.swift */; };
+		FF707104296ED606004EB0E7 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707103296ED606004EB0E7 /* DIContainer.swift */; };
+		FF707106296ED646004EB0E7 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707105296ED646004EB0E7 /* Injector.swift */; };
+		FF70710A296EDA1D004EB0E7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707109296EDA1D004EB0E7 /* Data.swift */; };
+		FF70710D296EDA7D004EB0E7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70710C296EDA7D004EB0E7 /* UserModel.swift */; };
+		FF70710F296EDBBF004EB0E7 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70710E296EDBBF004EB0E7 /* Array.swift */; };
+		FF707111296F348F004EB0E7 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707110296F348F004EB0E7 /* AppState.swift */; };
+		FF707113296F95A0004EB0E7 /* NSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707112296F95A0004EB0E7 /* NSNotification.swift */; };
+		FF707115296FC664004EB0E7 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707114296FC664004EB0E7 /* Dictionary.swift */; };
+		FF707117296FC67D004EB0E7 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707116296FC67D004EB0E7 /* MessageModel.swift */; };
+		FF707119296FD5A5004EB0E7 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707118296FD5A5004EB0E7 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +59,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1983B77BF413C2BB901787E5 /* Pods-MyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChat.release.xcconfig"; path = "Target Support Files/Pods-MyChat/Pods-MyChat.release.xcconfig"; sourceTree = "<group>"; };
+		46C20920A18AB1F2F32905A3 /* Pods_MyChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5150D169DFAA3C3BE5D74C6A /* Pods-MyChat-MyChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChat-MyChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyChat-MyChatUITests/Pods-MyChat-MyChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A040654669CDB5AA2491EF2 /* Pods-MyChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChatTests.debug.xcconfig"; path = "Target Support Files/Pods-MyChatTests/Pods-MyChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BACE167288C404CFE0EBC498 /* Pods_MyChat_MyChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyChat_MyChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6C45F1FBC0AE2538944A80 /* Pods-MyChat-MyChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChat-MyChatUITests.release.xcconfig"; path = "Target Support Files/Pods-MyChat-MyChatUITests/Pods-MyChat-MyChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4B591E69F5F423E30674309 /* Pods-MyChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChatTests.release.xcconfig"; path = "Target Support Files/Pods-MyChatTests/Pods-MyChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		E33D6BB7CBE8486CDBF907C9 /* Pods_MyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D800339CB93FC1E4EFE634 /* Pods-MyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChat.debug.xcconfig"; path = "Target Support Files/Pods-MyChat/Pods-MyChat.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7070AB296E7720004EB0E7 /* MyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7070AE296E7720004EB0E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7070B0296E7720004EB0E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF7070B2296E7720004EB0E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF7070B5296E7720004EB0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF7070B8296E7720004EB0E7 /* MyChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyChat.xcdatamodel; sourceTree = "<group>"; };
 		FF7070BA296E7723004EB0E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF7070BD296E7723004EB0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +80,27 @@
 		FF7070CE296E7723004EB0E7 /* MyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7070D2296E7723004EB0E7 /* MyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatUITests.swift; sourceTree = "<group>"; };
 		FF7070D4296E7723004EB0E7 /* MyChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF7070E4296E78C7004EB0E7 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		FF7070E5296E78C7004EB0E7 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		FF7070EA296E78E0004EB0E7 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		FF7070EB296E78E0004EB0E7 /* ChatRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewModel.swift; sourceTree = "<group>"; };
+		FF7070F2296E7A1E004EB0E7 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		FF7070F4296E7B84004EB0E7 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		FF7070F7296E7E2B004EB0E7 /* ChatRoomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomTableCell.swift; sourceTree = "<group>"; };
+		FF7070FA296E848F004EB0E7 /* ChatItemTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItemTableCell.swift; sourceTree = "<group>"; };
+		FF7070FD296E852B004EB0E7 /* SenderChatItemTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderChatItemTableCell.swift; sourceTree = "<group>"; };
+		FF7070FF296E8535004EB0E7 /* ReceiverChatItemTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverChatItemTableCell.swift; sourceTree = "<group>"; };
+		FF707101296E91DB004EB0E7 /* SocketProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProvider.swift; sourceTree = "<group>"; };
+		FF707103296ED606004EB0E7 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		FF707105296ED646004EB0E7 /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
+		FF707109296EDA1D004EB0E7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FF70710C296EDA7D004EB0E7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FF70710E296EDBBF004EB0E7 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		FF707110296F348F004EB0E7 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		FF707112296F95A0004EB0E7 /* NSNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotification.swift; sourceTree = "<group>"; };
+		FF707114296FC664004EB0E7 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		FF707116296FC67D004EB0E7 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		FF707118296FD5A5004EB0E7 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F5FC0F3FDAE16547A2FD99 /* Pods_MyChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBD8030C45857A12E751047 /* Pods_MyChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +124,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09068CB7A9E0803113FCC6FC /* Pods_MyChat_MyChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A77B6E9BA82D2F89AEE43AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E33D6BB7CBE8486CDBF907C9 /* Pods_MyChat.framework */,
+				BACE167288C404CFE0EBC498 /* Pods_MyChat_MyChatUITests.framework */,
+				46C20920A18AB1F2F32905A3 /* Pods_MyChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5051C30F7C9FE6DC3A7C087E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7D800339CB93FC1E4EFE634 /* Pods-MyChat.debug.xcconfig */,
+				1983B77BF413C2BB901787E5 /* Pods-MyChat.release.xcconfig */,
+				5150D169DFAA3C3BE5D74C6A /* Pods-MyChat-MyChatUITests.debug.xcconfig */,
+				BF6C45F1FBC0AE2538944A80 /* Pods-MyChat-MyChatUITests.release.xcconfig */,
+				5A040654669CDB5AA2491EF2 /* Pods-MyChatTests.debug.xcconfig */,
+				C4B591E69F5F423E30674309 /* Pods-MyChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FF7070A2296E7720004EB0E7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +161,8 @@
 				FF7070C7296E7723004EB0E7 /* MyChatTests */,
 				FF7070D1296E7723004EB0E7 /* MyChatUITests */,
 				FF7070AC296E7720004EB0E7 /* Products */,
+				5051C30F7C9FE6DC3A7C087E /* Pods */,
+				3A77B6E9BA82D2F89AEE43AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +179,12 @@
 		FF7070AD296E7720004EB0E7 /* MyChat */ = {
 			isa = PBXGroup;
 			children = (
-				FF7070AE296E7720004EB0E7 /* AppDelegate.swift */,
-				FF7070B0296E7720004EB0E7 /* SceneDelegate.swift */,
-				FF7070B2296E7720004EB0E7 /* ViewController.swift */,
-				FF7070B4296E7720004EB0E7 /* Main.storyboard */,
-				FF7070BA296E7723004EB0E7 /* Assets.xcassets */,
-				FF7070BC296E7723004EB0E7 /* LaunchScreen.storyboard */,
-				FF7070BF296E7723004EB0E7 /* Info.plist */,
-				FF7070B7296E7720004EB0E7 /* MyChat.xcdatamodeld */,
+				FF7070E1296E77C0004EB0E7 /* Application */,
+				FF7070F9296E8095004EB0E7 /* Infrastructures */,
+				FF70710B296EDA72004EB0E7 /* Model */,
+				FF7070E3296E7898004EB0E7 /* Presentations */,
+				FF7070E2296E77D4004EB0E7 /* Resources */,
+				FF7070EE296E7A02004EB0E7 /* Utils */,
 			);
 			path = MyChat;
 			sourceTree = "<group>";
@@ -130,6 +206,115 @@
 			path = MyChatUITests;
 			sourceTree = "<group>";
 		};
+		FF7070E1296E77C0004EB0E7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FF7070AE296E7720004EB0E7 /* AppDelegate.swift */,
+				FF7070B0296E7720004EB0E7 /* SceneDelegate.swift */,
+				FF707103296ED606004EB0E7 /* DIContainer.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FF7070E2296E77D4004EB0E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF7070BA296E7723004EB0E7 /* Assets.xcassets */,
+				FF7070BC296E7723004EB0E7 /* LaunchScreen.storyboard */,
+				FF7070BF296E7723004EB0E7 /* Info.plist */,
+				FF7070B7296E7720004EB0E7 /* MyChat.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF7070E3296E7898004EB0E7 /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				FF7070F6296E7DE6004EB0E7 /* Components */,
+				FF7070E9296E78D3004EB0E7 /* ChatRoom */,
+				FF7070E8296E78CE004EB0E7 /* Dashboard */,
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
+		FF7070E8296E78CE004EB0E7 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				FF7070E4296E78C7004EB0E7 /* DashboardViewController.swift */,
+				FF7070E5296E78C7004EB0E7 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		FF7070E9296E78D3004EB0E7 /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				FF7070EA296E78E0004EB0E7 /* ChatRoomViewController.swift */,
+				FF7070EB296E78E0004EB0E7 /* ChatRoomViewModel.swift */,
+			);
+			path = ChatRoom;
+			sourceTree = "<group>";
+		};
+		FF7070EE296E7A02004EB0E7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF7070F1296E7A15004EB0E7 /* Extensions */,
+				FF707105296ED646004EB0E7 /* Injector.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF7070F1296E7A15004EB0E7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF7070F2296E7A1E004EB0E7 /* UINavigationController.swift */,
+				FF7070F4296E7B84004EB0E7 /* UIViewController.swift */,
+				FF707109296EDA1D004EB0E7 /* Data.swift */,
+				FF70710E296EDBBF004EB0E7 /* Array.swift */,
+				FF707112296F95A0004EB0E7 /* NSNotification.swift */,
+				FF707114296FC664004EB0E7 /* Dictionary.swift */,
+				FF707118296FD5A5004EB0E7 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FF7070F6296E7DE6004EB0E7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FF7070FC296E8518004EB0E7 /* ChatItemCells */,
+				FF7070F7296E7E2B004EB0E7 /* ChatRoomTableCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FF7070F9296E8095004EB0E7 /* Infrastructures */ = {
+			isa = PBXGroup;
+			children = (
+				FF707101296E91DB004EB0E7 /* SocketProvider.swift */,
+				FF707110296F348F004EB0E7 /* AppState.swift */,
+			);
+			path = Infrastructures;
+			sourceTree = "<group>";
+		};
+		FF7070FC296E8518004EB0E7 /* ChatItemCells */ = {
+			isa = PBXGroup;
+			children = (
+				FF7070FA296E848F004EB0E7 /* ChatItemTableCell.swift */,
+				FF7070FD296E852B004EB0E7 /* SenderChatItemTableCell.swift */,
+				FF7070FF296E8535004EB0E7 /* ReceiverChatItemTableCell.swift */,
+			);
+			path = ChatItemCells;
+			sourceTree = "<group>";
+		};
+		FF70710B296EDA72004EB0E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF70710C296EDA7D004EB0E7 /* UserModel.swift */,
+				FF707116296FC67D004EB0E7 /* MessageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF7070D8296E7723004EB0E7 /* Build configuration list for PBXNativeTarget "MyChat" */;
 			buildPhases = (
+				EC070B025855A0F470AF84F7 /* [CP] Check Pods Manifest.lock */,
 				FF7070A7296E7720004EB0E7 /* Sources */,
 				FF7070A8296E7720004EB0E7 /* Frameworks */,
 				FF7070A9296E7720004EB0E7 /* Resources */,
+				F6D133F5E0DC395F78EF7236 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +341,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF7070DB296E7723004EB0E7 /* Build configuration list for PBXNativeTarget "MyChatTests" */;
 			buildPhases = (
+				23C97FB1866A573B203588F3 /* [CP] Check Pods Manifest.lock */,
 				FF7070C0296E7723004EB0E7 /* Sources */,
 				FF7070C1296E7723004EB0E7 /* Frameworks */,
 				FF7070C2296E7723004EB0E7 /* Resources */,
@@ -172,9 +360,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF7070DE296E7723004EB0E7 /* Build configuration list for PBXNativeTarget "MyChatUITests" */;
 			buildPhases = (
+				E0B27E2117E2568DB1FC2EEA /* [CP] Check Pods Manifest.lock */,
 				FF7070CA296E7723004EB0E7 /* Sources */,
 				FF7070CB296E7723004EB0E7 /* Frameworks */,
 				FF7070CC296E7723004EB0E7 /* Resources */,
+				2774A13EF8104538D6E4EA00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +426,6 @@
 			files = (
 				FF7070BE296E7723004EB0E7 /* LaunchScreen.storyboard in Resources */,
 				FF7070BB296E7723004EB0E7 /* Assets.xcassets in Resources */,
-				FF7070B6296E7720004EB0E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +445,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23C97FB1866A573B203588F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2774A13EF8104538D6E4EA00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyChat-MyChatUITests/Pods-MyChat-MyChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyChat-MyChatUITests/Pods-MyChat-MyChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyChat-MyChatUITests/Pods-MyChat-MyChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B27E2117E2568DB1FC2EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyChat-MyChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC070B025855A0F470AF84F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D133F5E0DC395F78EF7236 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyChat/Pods-MyChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyChat/Pods-MyChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyChat/Pods-MyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF7070A7296E7720004EB0E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7070B3296E7720004EB0E7 /* ViewController.swift in Sources */,
 				FF7070B9296E7720004EB0E7 /* MyChat.xcdatamodeld in Sources */,
+				FF7070F3296E7A1E004EB0E7 /* UINavigationController.swift in Sources */,
+				FF707102296E91DB004EB0E7 /* SocketProvider.swift in Sources */,
+				FF7070FB296E848F004EB0E7 /* ChatItemTableCell.swift in Sources */,
+				FF707113296F95A0004EB0E7 /* NSNotification.swift in Sources */,
+				FF707100296E8535004EB0E7 /* ReceiverChatItemTableCell.swift in Sources */,
+				FF7070F5296E7B84004EB0E7 /* UIViewController.swift in Sources */,
+				FF7070FE296E852B004EB0E7 /* SenderChatItemTableCell.swift in Sources */,
+				FF707106296ED646004EB0E7 /* Injector.swift in Sources */,
+				FF707104296ED606004EB0E7 /* DIContainer.swift in Sources */,
+				FF70710F296EDBBF004EB0E7 /* Array.swift in Sources */,
+				FF7070E7296E78C7004EB0E7 /* DashboardViewModel.swift in Sources */,
+				FF707111296F348F004EB0E7 /* AppState.swift in Sources */,
 				FF7070AF296E7720004EB0E7 /* AppDelegate.swift in Sources */,
+				FF7070F8296E7E2B004EB0E7 /* ChatRoomTableCell.swift in Sources */,
+				FF707115296FC664004EB0E7 /* Dictionary.swift in Sources */,
 				FF7070B1296E7720004EB0E7 /* SceneDelegate.swift in Sources */,
+				FF70710A296EDA1D004EB0E7 /* Data.swift in Sources */,
+				FF707117296FC67D004EB0E7 /* MessageModel.swift in Sources */,
+				FF707119296FD5A5004EB0E7 /* Date.swift in Sources */,
+				FF7070E6296E78C7004EB0E7 /* DashboardViewController.swift in Sources */,
+				FF7070EC296E78E0004EB0E7 /* ChatRoomViewController.swift in Sources */,
+				FF70710D296EDA7D004EB0E7 /* UserModel.swift in Sources */,
+				FF7070ED296E78E0004EB0E7 /* ChatRoomViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +613,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FF7070B4296E7720004EB0E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF7070B5296E7720004EB0E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FF7070BC296E7723004EB0E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +740,7 @@
 		};
 		FF7070D9296E7723004EB0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D800339CB93FC1E4EFE634 /* Pods-MyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,17 +748,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8MV3PNW544;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyChat/Info.plist;
+				INFOPLIST_FILE = MyChat/Resources/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mnobelsh.MyChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -464,6 +768,7 @@
 		};
 		FF7070DA296E7723004EB0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1983B77BF413C2BB901787E5 /* Pods-MyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,17 +776,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8MV3PNW544;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyChat/Info.plist;
+				INFOPLIST_FILE = MyChat/Resources/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mnobelsh.MyChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -492,6 +796,7 @@
 		};
 		FF7070DC296E7723004EB0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A040654669CDB5AA2491EF2 /* Pods-MyChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +817,7 @@
 		};
 		FF7070DD296E7723004EB0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B591E69F5F423E30674309 /* Pods-MyChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +838,7 @@
 		};
 		FF7070DF296E7723004EB0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5150D169DFAA3C3BE5D74C6A /* Pods-MyChat-MyChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +857,7 @@
 		};
 		FF7070E0296E7723004EB0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6C45F1FBC0AE2538944A80 /* Pods-MyChat-MyChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
