@@ -10,6 +10,7 @@
 		09068CB7A9E0803113FCC6FC /* Pods_MyChat_MyChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACE167288C404CFE0EBC498 /* Pods_MyChat_MyChatUITests.framework */; };
 		56F5FC0F3FDAE16547A2FD99 /* Pods_MyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33D6BB7CBE8486CDBF907C9 /* Pods_MyChat.framework */; };
 		8CBD8030C45857A12E751047 /* Pods_MyChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C20920A18AB1F2F32905A3 /* Pods_MyChatTests.framework */; };
+		FF3027F0297A89E900DBB71F /* ImagePreviewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3027EF297A89E900DBB71F /* ImagePreviewContainerView.swift */; };
 		FF7070AF296E7720004EB0E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070AE296E7720004EB0E7 /* AppDelegate.swift */; };
 		FF7070B1296E7720004EB0E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7070B0296E7720004EB0E7 /* SceneDelegate.swift */; };
 		FF7070B9296E7720004EB0E7 /* MyChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF7070B7296E7720004EB0E7 /* MyChat.xcdatamodeld */; };
@@ -68,6 +69,7 @@
 		C4B591E69F5F423E30674309 /* Pods-MyChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChatTests.release.xcconfig"; path = "Target Support Files/Pods-MyChatTests/Pods-MyChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		E33D6BB7CBE8486CDBF907C9 /* Pods_MyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D800339CB93FC1E4EFE634 /* Pods-MyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChat.debug.xcconfig"; path = "Target Support Files/Pods-MyChat/Pods-MyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3027EF297A89E900DBB71F /* ImagePreviewContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewContainerView.swift; sourceTree = "<group>"; };
 		FF7070AB296E7720004EB0E7 /* MyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7070AE296E7720004EB0E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7070B0296E7720004EB0E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 			children = (
 				FF7070EA296E78E0004EB0E7 /* ChatRoomViewController.swift */,
 				FF7070EB296E78E0004EB0E7 /* ChatRoomViewModel.swift */,
+				FF3027EF297A89E900DBB71F /* ImagePreviewContainerView.swift */,
 			);
 			path = ChatRoom;
 			sourceTree = "<group>";
@@ -553,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3027F0297A89E900DBB71F /* ImagePreviewContainerView.swift in Sources */,
 				FF7070B9296E7720004EB0E7 /* MyChat.xcdatamodeld in Sources */,
 				FF7070F3296E7A1E004EB0E7 /* UINavigationController.swift in Sources */,
 				FF707102296E91DB004EB0E7 /* SocketProvider.swift in Sources */,

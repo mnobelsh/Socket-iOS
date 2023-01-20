@@ -1,0 +1,9 @@
+{
+  "name": "SocketChat-Server",
+  "version": "1.0",
+  "description": "Socket.IO Client for iOS Tutorial, Server-side implementation",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.5.4"
+  }
+}

@@ -24,6 +24,7 @@ protocol ChatRoomViewModelInput {
     func didTyping(text: String?)
     func didEndTyping(text: String?)
     func sendMessage()
+    func didSelectImage(data: Data?)
 }
 
 final class ChatRoomViewModel {
@@ -32,6 +33,7 @@ final class ChatRoomViewModel {
     let request: ChatRoomViewModelRequest
     var response: ChatRoomViewModelResponse?
     private var message: String?
+    private var imageData: Data?
     
     @Inject private var socketProvider: SocketProvider
     
@@ -92,10 +94,17 @@ extension ChatRoomViewModel: ChatRoomViewModelInput {
     }
     
     func sendMessage() {
-        guard let message = self.message,
-              !message.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
-        else { return }
-        socketProvider.sendMessage(receiverUsername: request.receiverUser.username, message: message)
+        socketProvider.sendMessage(
+            receiverUsername: request.receiverUser.username,
+            message: message ?? "",
+            imageData: imageData ?? Data(),
+            date: Date()
+        )
+        imageData = nil
+    }
+    
+    func didSelectImage(data: Data?) {
+        imageData = data
     }
 
 }

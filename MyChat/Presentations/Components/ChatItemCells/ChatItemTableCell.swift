@@ -32,6 +32,7 @@ class ChatItemTableCell: UITableViewCell {
         label.textColor = .white
         return label
     }()
+    private lazy var contentImageView: UIImageView = UIImageView()
     lazy var timeLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
@@ -39,6 +40,12 @@ class ChatItemTableCell: UITableViewCell {
         label.textAlignment = .left
         label.textColor = .black
         return label
+    }()
+    private lazy var contentStackView: UIStackView = {
+        let stackView = UIStackView(arrangedSubviews: [contentImageView,contentLabel])
+        stackView.axis = .vertical
+        stackView.spacing = 6
+        return stackView
     }()
     lazy var contentContainerView: UIView = UIView()
     lazy var separatorView: UIView = {
@@ -57,10 +64,18 @@ class ChatItemTableCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        contentImageView.isHidden = true
+        contentImageView.image = nil
+    }
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         profileImageView.layer.cornerRadius = imageSize/2
+        profileImageView.layer.cornerCurve = .continuous
         contentContainerView.layer.cornerRadius = 10
+        contentContainerView.layer.cornerCurve = .continuous
         switch orientation {
         case .left:
             contentContainerView.layer.maskedCorners = [
@@ -71,14 +86,17 @@ class ChatItemTableCell: UITableViewCell {
                 .layerMinXMinYCorner,.layerMinXMaxYCorner,.layerMaxXMinYCorner
             ]
         }
-
     }
     
     private func setupContentContainerView(orientation: ContentOrientation) {
+        contentImageView.isHidden = true
         contentLabel.textAlignment = orientation == .right ? .right : .left
-        contentContainerView.addSubview(contentLabel)
-        contentLabel.snp.makeConstraints { make in
+        contentContainerView.addSubview(contentStackView)
+        contentStackView.snp.makeConstraints { make in
             make.edges.equalToSuperview().inset(8)
+        }
+        contentImageView.snp.makeConstraints { make in
+            make.width.height.lessThanOrEqualTo(UIScreen.main.bounds.width*0.7)
         }
     }
     
@@ -122,6 +140,13 @@ class ChatItemTableCell: UITableViewCell {
     func setCell(user: UserModel, message: MessageModel) {
         contentLabel.text = message.message
         timeLabel.text = message.getDate().toString()
+        if let imageData = message.imageData() {
+            contentImageView.isHidden = false
+            contentImageView.image = UIImage(data: imageData)
+        } else {
+            contentImageView.isHidden = true
+            contentImageView.image = nil
+        }
         if let imageData = user.avatarImageData {
             profileImageView.image = UIImage(data: imageData)
             profileImageView.setNeedsLayout()
