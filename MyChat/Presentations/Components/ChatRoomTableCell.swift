@@ -93,7 +93,7 @@ final class ChatRoomTableCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         profileImageView.layer.cornerRadius = imageSize/4
-        profileImageView.layer.cornerCurve = .circular
+        profileImageView.layer.cornerCurve = .continuous
         indicatorView.layer.cornerRadius = indicatorSize/2
     }
     

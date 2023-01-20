@@ -58,9 +58,11 @@ final class SocketProvider {
         socket.emit("startChat", username)
     }
     
-    func sendMessage(receiverUsername: String, message: String) {
+    func sendMessage(receiverUsername: String, message: String, imageData: Data, date: Date) {
         guard let username = AppState.shared.username else { return }
-        socket.emit("chatMessage", username, receiverUsername, message)
+        let base64String = imageData.base64EncodedString()
+        let dateString = date.toString(format: "M/dd/yyyy HH:mm:ss a")
+        socket.emit("chatMessage", username, receiverUsername, message, base64String, dateString)
     }
     
     func getAllUserList(completion: @escaping(_ userList: [UserModel]) -> Void) {
